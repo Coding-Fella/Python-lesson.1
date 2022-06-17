@@ -1,129 +1,61 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
 
-# C extensions
-*.so
+#Lektion nr1
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Print(x) = Genom att använda detta syntax säger man att ett visst svar, ord eller fråga.
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Det går att likställa ett föremål eller sak med ett värde, 1 hundralapp = 100.
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
+# Variablar 
 
-# Translations
-*.mo
-*.pot
+#förnamn = "1"
+#efternamn = "2"
+#hela_namnet = förnamn +" "+ efternamn
+#print("Hello " + hela_namnet)
+#str = string
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+#Age = 22
+#Age = Age + 1
+#print("Your age is: "+str(Age))
+#print(type(Age))
+#'Int'
 
-# Flask stuff:
-instance/
-.webassets-cache
+#Höjd = 182.5
+#print("Din höjd är: "+str(Höjd)+ "cm")
+#print(type(Höjd))
 
-# Scrapy stuff:
-.scrapy
+#Boolean datatyp(bool) = besvarar sant eller falskt
+# Kan vara bra i "If" statements.
 
-# Sphinx documentation
-docs/_build/
+Human = True
+print("Är du en människa? "+ str (Human)+ ",I am")
+#print(type(Human)) = bool
 
-# PyBuilder
-target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+#Lektion nr2 
 
-# IPython
-profile_default/
-ipython_config.py
+# Flera uppdrag = Genom att skriva syntax på detta vis går det att skriva svar på flera frågor på endast en rad av kod
+# namn = "Moe"
+# ålder = 420
+# Sussin = True
 
-# pyenv
-.python-version
+namn, ålder, sussin = "Moe.von.lawn", 21, True
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+print(namn)
+print(ålder)
+print(sussin)
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
+# Exempel 2
+# Likställa värden = Genom att använda likamedtecken "=" kan vi samla data mer effektivt
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+# Tobias = 30
+# Dogge = 30
+# Patrik = 30
 
-# SageMath parsed files
-*.sage.py
+Tobias = Dogge = Patrik = 30
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+print(Tobias)+ ("år")
+print(Dogge)
+print(Patrik)
 
-# Spyder project settings
-.spyderproject
-.spyproject
 
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/

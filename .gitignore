@@ -1,43 +1,51 @@
 
-#Lektion nr1
+ #Lektion 1
 
 # Print(x) = Genom att använda detta syntax säger man att ett visst svar, ord eller fråga.
-
 # Det går att likställa ett föremål eller sak med ett värde, 1 hundralapp = 100.
 
 
-# Variabel
+# Vi kan börja med att definera två olika variabler.
+# Genom att skriva citattecken("") före och efter varibeln defineras dem som en string(str).
+förnamn = "Moe"
+efternamn = "Szyslak"
 
-#förnamn = "1"
-#efternamn = "2"
-#hela_namnet = förnamn +" "+ efternamn
-#print("Hello " + hela_namnet)
-#str = string
+# Det går att sätta ihop två variabler för att skapa en enda.
+# Genom att skriva " +" "+ " kommer ett mellanrum bildas mellan för och efternamnet.
+hela_namnet = förnamn +" "+ efternamn
+print("Hello " + hela_namnet)
 
-#Age = 22
-#Age = Age + 1
-#print("Your age is: "+str(Age))
-#print(type(Age))
-#'Int'
+# Efter som att det inte står några citattecken runt "22" och den inte innhåller några decimaler är detta en integer(int/heltal).
+# Man kan bland annat göra mattematiska uträckningar med dessa.
+ålder = 22
+ålder = ålder + 1
 
-#Höjd = 182.5
-#print("Din höjd är: "+str(Höjd)+ "cm")
-#print(type(Höjd))
+# Det går att skriva om en interger(heltal) till en string(str). 
+ #str(ålder) --> integer(heltal) till string.
+print("Your age is: "+str(ålder))
+print(type(ålder))
 
-#Boolean datatyp(bool) = besvarar sant eller falskt
-# Kan vara bra i "If" statements.
+# Denna variabel är ett tal som även innehåller en decimal.
+# Detta kallas för en float(flyttal).
+höjd = 182.5
 
-Human = True
-print("Är du en människa? "+ str (Human)+ ",I am")
-#print(type(Human)) = bool
+# Det går att skriva om floats(flyttal) till strings(str). 
+ #str(höjd) --> float(flyttal) till string.
+print("Din höjd är: "+str(höjd)+ "cm")
+print(type(Höjd))
+
+# Boolean datatyp(bool) = besvarar om ett påstående är sant eller falskt.
+# Först skrivs 
+människa = True
+print("Är du en människa? "+ str (människa)+"!")
 
 
-#Lektion nr2 
+#Lektion 2 
 
 # Flera uppdrag = Genom att skriva syntax på detta vis går det att skriva svar på flera frågor på endast en rad av kod
-# namn = "Moe"
-# ålder = 420
-# Sussin = True
+namn = "Moe"
+ålder = 420
+Sussy = True
 
 namn, ålder, sussin = "Moe.von.lawn", 21, True
 
@@ -48,9 +56,9 @@ print(sussin)
 # Exempel 2
 # Likställa värden = Genom att använda likamedtecken "=" kan vi samla data mer effektivt
 
-# Tobias = 30
-# Dogge = 30
-# Patrik = 30
+Tobias = 30
+Dogge = 30
+Patrik = 30
 
 Tobias = Dogge = Patrik = 30
 

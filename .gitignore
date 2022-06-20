@@ -40,30 +40,40 @@ människa = True
 print("Är du en människa? "+ str (människa)+"!")
 
 
+
 #Lektion 2 
 
-# Flera uppdrag = Genom att skriva syntax på detta vis går det att skriva svar på flera frågor på endast en rad av kod
+# Flera uppdrag = Genom att skriva syntax på detta vis går det att skriva svar på flera frågor på endast en rad av kod.
 namn = "Moe"
 ålder = 420
-Sussy = True
+Sus = True
 
-namn, ålder, sussin = "Moe.von.lawn", 21, True
+namn, ålder, sus = "Moe.von.lawn", 21, True
 
-print(namn)
+# Det går på samma vis att "printa" flera varablar på endast en rad.
+print(namn
 print(ålder)
-print(sussin)
+print(sus)
+
+print(namn, ålder, sus)
 
 # Exempel 2
-# Likställa värden = Genom att använda likamedtecken "=" kan vi samla data mer effektivt
 
+# Likställa värden = Genom att använda likamedtecken "=" kan vi samla data mer effektivt
+# Eftersom att dessa tre variabler har samma värde kan man helt enkelt likställa dessa.
 Tobias = 30
 Dogge = 30
 Patrik = 30
 
 Tobias = Dogge = Patrik = 30
 
-print(Tobias)+ ("år")
-print(Dogge)
+# Det går sedan att printa värdet av varje variabel.
+print(Tobias)
+print(Dogge) 
 print(Patrik)
+
+print(Tobias, Dogge, Patrik)
+
+
 
 

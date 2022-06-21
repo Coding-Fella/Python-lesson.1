@@ -1,8 +1,8 @@
 
  #Lektion 1
 
-# Print(x) = Genom att använda detta syntax säger man att ett visst svar, ord eller fråga.
-# Det går att likställa ett föremål eller sak med ett värde, 1 hundralapp = 100.
+# Print(x) = Genom att använda detta syntax säger man att ett visst svar, ord eller fråga ska skrivas av koden.
+# Det går att likställa ett föremål eller sak med ett värde, 1 hundralapp = 100. På sätt skrivs variabler skrivas.
 
 
 # Vi kan börja med att definera två olika variabler.
